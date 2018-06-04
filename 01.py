@@ -16,7 +16,7 @@ class PythonStudent():
     course = 'Python'
     
     # 注意缩进层级
-    def DoHomeWork():
+    def DoHomeWork(self):
         print('I do Homework')
 
         return None 
@@ -26,4 +26,4 @@ alex = PythonStudent()
 
 print(alex.name)
 print(alex.age)
-alex.DoHomeWork
+alex.DoHomeWork()
